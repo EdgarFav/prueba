@@ -27,7 +27,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send('Bienvenido a la API de JyT App')
+    res.send('Bienvenido a la API TodoList')
 })
 
 app.use('/', authRouter)
